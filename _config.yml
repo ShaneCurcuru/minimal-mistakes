@@ -9,8 +9,8 @@
 locale                   : "en"
 title                    : "Punderthings Sample Site"
 title_separator          : "-"
-name                     : "Shane Curcuru"
-description              : "Shane's updates to Minimal Mistakes theme."
+name                     : &name "Shane Curcuru"
+description              : &description "Shane's updates to Minimal Mistakes theme."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ShaneCurcuru/punderings.org" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "ShaneCurcuru"
+  username               : &scid "ShaneCurcuru"
 facebook:
   username               :
   app_id                 :
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : *name
   avatar           : "http://www.gravatar.com/avatar/1638dc3ac71d62effe3fbb7301eca9a2" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Default Minimal Mistakes version website template."
+  bio              : *description
   location         : "Boston, MA"
   email            :
   uri              :
@@ -90,18 +90,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : &github "ShaneCurcuru"
-  google_plus      : &google_plus "ShaneCurcuru"
+  github           : *scid
+  google_plus      : *scid
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : &linkedin "ShaneCurcuru"
+  linkedin         : *scid
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : *twitter
+  twitter          : *scid
   vine             :
   weibo            :
   xing             :
@@ -137,10 +137,9 @@ exclude:
   - README
   - tmp
   - /docs # ignore Minimal Mistakes /docs
-###  - /test # ignore Minimal Mistakes /test
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -175,7 +174,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 6 # amount of posts to show
 paginate_path: /page:num/
-timezone: "America/New_York" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -231,6 +230,14 @@ compress_html:
   ignore:
     envs: development
 
+# Collections - expose data via archive pages
+collections:
+  ways:
+    output: true
+    permalink: /:collection/:path/
+  aspects:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
