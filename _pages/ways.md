@@ -1,10 +1,13 @@
 ---
 layout: archive
+title: "ways"
+permalink: /ways
+author_profile: false
 ---
 
-<h3 class="archive__subtitle">{{ site.ways.excerpt }}</h3>
-
 {% include base_path %}
+
+### {{ site.ways.excerpt }}
 
 {% for post in site.ways %}
   {% include archive-single.html %}

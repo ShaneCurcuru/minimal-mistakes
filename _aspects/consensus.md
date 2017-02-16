@@ -1,6 +1,6 @@
 ---
 title: "Consensus"
-permalink: /Consensus/
+permalink: /consensus/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
 ---
