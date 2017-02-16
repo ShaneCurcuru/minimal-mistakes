@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "ShaneCurcuru"
+  username               : &twitter "ShaneCurcuru"
 facebook:
   username               :
   app_id                 :
@@ -67,6 +67,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/ShaneCurcuru"
 
 # Analytics
 analytics:
@@ -77,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shane Curcuru"
+  name             : *name
   avatar           : "http://www.gravatar.com/avatar/1638dc3ac71d62effe3fbb7301eca9a2" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Default Minimal Mistakes version website template."
   location         : "Boston, MA"
@@ -89,18 +90,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/ShaneCurcuru"
-  google_plus      : "https://plus.google.com/+ShaneCurcuru"
+  github           : &github "ShaneCurcuru"
+  google_plus      : &google_plus "ShaneCurcuru"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/shanecurcuru"
+  linkedin         : &linkedin "ShaneCurcuru"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/shanecurcuru"
+  twitter          : *twitter
   vine             :
   weibo            :
   xing             :
@@ -136,7 +137,7 @@ exclude:
   - README
   - tmp
   - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+###  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
