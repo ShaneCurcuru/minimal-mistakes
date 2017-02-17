@@ -1,14 +1,14 @@
 ---
 layout: archive
-title: "ways"
-permalink: /ways
+title: "aspects"
+permalink: /aspects
 author_profile: false
 ---
 
 {% include base_path %}
 
-<h2>{{ site.ways.excerpt }}</h2>
+<h2>{{ site.aspects.excerpt }}</h2>
 
-{% for post in site.ways %}
+{% for post in site.aspects %}
   {% include archive-single.html %}
 {% endfor %}

@@ -3,6 +3,15 @@ title: "Community"
 permalink: /community/
 excerpt: "Many of us are more effective than all of us."
 modified: 2017-01-14T09:00:00-05:00
+categories:
+  - Community
+tags:
+  - Community
+  - Collaboration
+  - Conduct
+  - Hats
+  - Individual
+  - Diversity
 ---
 
 <q>Community over Code</q> is a frequent saying that exemplifies Apache projects.  A healthy Community uses Openness and Merit, expressed through Collaborative and Consensus driven work, to build lasting projects that use a Pragmatic License. While acting like a diverse community is a requirement for every Apache project, we also expect people to contribute as Individuals, and wear appropriate Hats.

@@ -3,6 +3,13 @@ title: "Open"
 permalink: /open/
 excerpt: "Technical decisions are discussed, decided, and archived publicly."
 modified: 2017-01-14T09:03:00-05:00
+categories:
+  - Open
+tags:
+  - Open
+  - MailingLists
+  - Archived
+  - Offlist
 ---
 
 Strong communities can best function when work is done openly. All ASF projects use Mailing Lists as their primary means of working and communicating. Code is always publicly available, and Votes about all aspects of project direction are performed publicly, over a specific period of time – allowing contributors worldwide time to participate. Individuals participating in healthy communities make their affiliations public, and ensure that they are wearing an ASF contributor's hat when they are participating in the community. Releases of software products are voted upon publicly, and our code and decisions are always available for review. Openness allows new users the opportunity to learn. Every non-public mailing list at the ASF must have a specific reason to be kept private.

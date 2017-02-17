@@ -3,6 +3,11 @@ title: "Committer"
 permalink: /committer/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
+categories:
+  - Committer
+tags:
+  - Committer
+  - Merit
 ---
 
 Committers are individuals who have write access to a project's source code repository. They may make changes to the project code and website directly, although they are expected to follow that project's development guidelines when doing so.

@@ -3,6 +3,13 @@ title: "Offlist"
 permalink: /offlist/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
+categories:
+  - Offlist
+tags:
+  - Offlist
+  - MailingList
+  - Open
+  - Collaboration
 ---
 
 There's an old saying at Apache: "If it didn't happen on the mailing list, it didn't happen."

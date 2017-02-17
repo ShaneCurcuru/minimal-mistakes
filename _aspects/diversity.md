@@ -3,6 +3,12 @@ title: "Diversity"
 permalink: /diversity/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
+categories:
+  - Diversity
+tags:
+  - Diversity
+  - Community
+  - Pragmatic
 ---
 
 Community diversity is often a key element to community health. The most important factor is a diversity of employers, for those committers who are doing some or all work on behalf of the employers. Projects that solely comprise active committers from a single project are frequently at risk of abandonment when their employer's business cycle changes. Projects with active committers from multiple employers - or including students and hobbyists – can continue work and to draw in new contributors, even if one employer changes direction.

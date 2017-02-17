@@ -3,6 +3,11 @@ title: "Servers"
 permalink: /servers/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
+categories:
+  - Servers
+tags:
+  - Servers
+  - Pragmatic
 ---
 
 The Apache Infrastructure team provides basic maintenance of all hardware and cloud resources in the core ASF infrastructure. Note that we rely on a large network of mirror operators to serve actual downloads of official releases.

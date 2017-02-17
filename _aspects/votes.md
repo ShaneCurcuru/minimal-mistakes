@@ -3,6 +3,12 @@ title: "Votes"
 permalink: /votes/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
+categories:
+  - Votes
+tags:
+  - Votes
+  - Consensus
+  - Merit
 ---
 
 Voting is done by +1 / -1, and is either majority, or allows -1 to serve as a veto (with an explanation) only in very specific cases.  Votes are required for releases to show the explicit approval of a sufficient number of PMC members that the software release is appropriate.

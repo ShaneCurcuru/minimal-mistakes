@@ -3,6 +3,13 @@ title: "Consensus"
 permalink: /consensus/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
+categories:
+  - Consensus
+tags:
+  - Consensus
+  - Community
+  - Open
+  - Merit
 ---
 
 Communities working in The Apache Way strive to get consensus on major decisions. Having the community work together is one of the most important parts of the Way, as well as one of the most difficult to implement.

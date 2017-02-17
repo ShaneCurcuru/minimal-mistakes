@@ -3,6 +3,14 @@ title: "Merit"
 permalink: /merit/
 excerpt: "Those that have proven they can do, get to do more."
 modified: 2017-01-14T09:02:00-05:00
+categories:
+  - Merit
+tags:
+  - Merit
+  - Individual
+  - Affiliation
+  - Committer
+  - PMCs
 ---
 
 Merit defines who is allowed to participate at various levels within a project community. Users help a project over time, and existing Committers Vote to invite the user to become a committer. Committers are allowed write access to the project's source code, allowing them to imrpove the project. Strong communities rely on Openness in their work, usually on public Mailing Lists, to be able to recognize merit. Merit accurues to individuals regardless of affiliations, and typically does not expire.

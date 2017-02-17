@@ -18,3 +18,9 @@ In one sentence – but wait, let's be serious: how could you describe even part
 This site is my particular interpretation of The Apache Way. As a long-time committer and member of the ASF, I've come to belive in an love the ASF itself. I hope this site helps others, and gives people a perspective on what I think is one of the best ways to work.
 
 This site is Shane's attempt at providing a solid explanation of the key concepts behind the Apache Way in as approachable manner as I am able. This site does not represent the official views or policies of The Apache Software Foundation. All official policies of the ASF may be found on the main apache.org domain.
+
+## Make Suggestions And Discuss The Apache Way
+
+This site is in a <a href="https://github.com/{{ site.repository }}">GitHub repository</a>, so all Apache committers are welcome to make Pull Requests.  Note this is not an official Apache project.
+
+To discuss the Apache Way or learn more about how best to work with any Apache project, please see the [Apache Community Development project](//community.apache.org/), and participate in the [dev@community mailing list](https://lists.apache.org/list.html?dev@community.apache.org).

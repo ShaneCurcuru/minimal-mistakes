@@ -3,6 +3,14 @@ title: "Pragmatic"
 permalink: /pragmatic/
 excerpt: "Apache projects use the broadly permissive Apache license."
 modified: 2017-01-14T09:04:00-05:00
+categories:
+  - Pragmatic
+tags:
+  - Pragmatic
+  - Licenses
+  - Code
+  - Branding
+  - Servers
 ---
 
 The mission of the ASF is to provide software for the public good. We use the Apache License to do this, which ensures that users of our software have the freedom to use our software however they see fit – even in proprietary products. Our steadfast belief in freedom for our users both serves our public purpose, as well as ensures that users from all areas are able to - and often desire to - contribute back to our communities. Our pragmatic license allows contributors from individuals to corporate teams to join together, secure in the knowledge that their product is freely usable by all.

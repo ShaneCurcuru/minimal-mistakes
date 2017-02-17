@@ -7,6 +7,8 @@ categories:
   - Charity
 tags:
   - Charity
+  - Branding
+  - Hats
 ---
 
 The original Certificate of Incorporation ensures that the ASF operates as a public charity. The most important action the ASF does is providing useful software products to the world, for free. Many parts of the The Apache Way are a happy coincidence of altruism and selfishness. Many contributors believe in our service to the public, and contribute from a belief that we can make the world a better place. They work side by side with contributors who are simply “scratching their own itch”: people who simply want to fix their own problems, but who find it's often easier to do that in concert with others as it is to do alone.

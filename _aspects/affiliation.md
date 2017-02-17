@@ -3,6 +3,12 @@ title: "Affiliation"
 permalink: /affiliation/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
+categories:
+  - Affiliation
+tags:
+  - Affiliation
+  - Community
+  - Merit
 ---
 
 Everyone comes to the community from a different background. Many committers contribute as part of their employment, if their employer uses ASF software. Some committers are consultants, who keep up on technology and build custom solutions for various customers. Some committers are students or hobbyists, who do it for their own personal reasons.

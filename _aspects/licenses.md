@@ -3,6 +3,12 @@ title: "Licenses"
 permalink: /licenses/
 excerpt: "."
 modified: 2017-01-14T10:05:00-05:00
+categories:
+  - Licenses
+tags:
+  - Licenses
+  - Pragmatic
+  - Charity
 ---
 
 Apache projects make releases using the Apache License, currently 2.0. In very specific cases, certain pre-approved licences (known as Cat-A or Cat-B) may be used for binary-only, optional dependencies.
