@@ -2,11 +2,13 @@
 layout: archive
 permalink: /categories/
 title: "Apache Way Elements by Category"
-author_profile: false
+author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="categories" %}
+{% include group-by-array collection=site.collections field="categories" %}
+
+<h2>Categories are used to classify the main Ways of Apache.</h2>
 
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}

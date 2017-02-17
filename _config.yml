@@ -60,7 +60,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "http://www.gravatar.com/avatar/1638dc3ac71d62effe3fbb7301eca9a2" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/gravatar.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "http://www.gravatar.com/avatar/1638dc3ac71d62effe3fbb7301eca9a2" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/gravatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : *description
   location         : "Boston, MA"
   email            :

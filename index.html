@@ -2,3 +2,14 @@
 layout: archive
 author_profile: true
 ---
+
+{% include base_path %}
+
+<p> TODO: Add proper intro data and pointers.</p>
+
+<h2>{{ site.ways.excerpt }}</h2>
+
+{% for post in site.ways %}
+  {% include archive-single.html %}
+{% endfor %}
+
