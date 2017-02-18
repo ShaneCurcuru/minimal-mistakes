@@ -7,8 +7,4 @@ author_profile: false
 
 {% include base_path %}
 
-<h2>{{ site.ways.excerpt }}</h2>
-
-{% for post in site.ways %}
-  {% include archive-single.html %}
-{% endfor %}
+{% include allways.html %}
