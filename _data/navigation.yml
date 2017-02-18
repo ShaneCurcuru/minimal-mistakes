@@ -5,7 +5,7 @@ main:
   - title: "Colophon"
     url: /colophon
   - title: "Apache Community Development"
-    url: //community.apache.org/
+    url: https://community.apache.org/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

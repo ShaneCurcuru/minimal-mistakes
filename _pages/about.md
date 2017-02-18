@@ -5,7 +5,7 @@ permalink: /about
 author_profile: true
 ---
 
-# About The Apache Way
+## About The Apache Way
 
 The Apache Way is sort of like Zen. It's something that's difficult to explain, has many interpretations, and the best way to learn it is to do it.
 
@@ -13,13 +13,13 @@ This is devoted to one interpretation of The Apache Way – the one that I've le
 
 In one sentence – but wait, let's be serious: how could you describe even part of Zen in one sentence? The Apache Way is primarily about Community, Merit, and Openness, backed up by Pragmatism and Charity. The ASF as a whole promotes the use of The Apache Way within it's projects; indeed some of these concepts are required of it's projects. Many other organizations and especially open source groups have adopted or modified many of these same concepts.
 
-## Shane's Version Of The Apache Way
+### Shane's Version Of The Apache Way
 
 This site is my particular interpretation of The Apache Way. As a long-time committer and member of the ASF, I've come to belive in an love the ASF itself. I hope this site helps others, and gives people a perspective on what I think is one of the best ways to work.
 
 This site is Shane's attempt at providing a solid explanation of the key concepts behind the Apache Way in as approachable manner as I am able. This site does not represent the official views or policies of The Apache Software Foundation. All official policies of the ASF may be found on the main apache.org domain.
 
-## Make Suggestions And Discuss The Apache Way
+### Make Suggestions And Discuss The Apache Way
 
 This site is in a <a href="https://github.com/{{ site.repository }}">GitHub repository</a>, so all Apache committers are welcome to make Pull Requests.  Note this is not an official Apache project.
 
