@@ -1,7 +1,7 @@
 ---
 title: "Committer"
 permalink: /committer/
-excerpt: "."
+excerpt: "Committers have write access to the repository."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Committer

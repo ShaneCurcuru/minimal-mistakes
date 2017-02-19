@@ -1,7 +1,7 @@
 ---
 title: "Affiliation"
 permalink: /affiliation/
-excerpt: "."
+excerpt: "Who you work for or get paid by."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Affiliation

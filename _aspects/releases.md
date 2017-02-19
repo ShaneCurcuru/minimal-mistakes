@@ -1,7 +1,7 @@
 ---
 title: "Releases"
 permalink: /releases/
-excerpt: "."
+excerpt: "Following release policy ensures releases are acts of the organization, not the release manager personally."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Releases

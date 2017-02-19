@@ -24,7 +24,7 @@ Some key aspects of Community are:
 
 Apache projects are run collaboratively; that is, the whole of the community that has shown merit gets to decide technical direction.
 
-## Consensus
+## Consensus
 
 Communities working in The Apache Way strive to get consensus on major decisions. Having the community work together is one of the most important parts of the Way, as well as one of the most difficult to implement.
 

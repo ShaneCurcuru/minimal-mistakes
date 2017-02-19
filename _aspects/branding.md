@@ -1,7 +1,7 @@
 ---
 title: "Branding"
 permalink: /branding/
-excerpt: "."
+excerpt: "Users should know who is behind the project."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Branding

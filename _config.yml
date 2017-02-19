@@ -244,33 +244,25 @@ collections:
 
 # Defaults
 defaults:
-  - scope: # _posts
+  - scope: # default: all types
       path: ""
-      type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: false # true
       share: true
       related: true
+      sidebar:
+        nav: "sbmenu"
   - scope: # _ways directory (high level concepts)
       path: ""
       type: ways
     values:
-      layout: single
-      read_time: true
       author_profile: false
-      share: true
-      comments: false
+      read_time: false
   - scope: # _aspects directory (low level concepts)
       path: ""
       type: aspects
     values:
-      layout: single
-      read_time: false
       author_profile: false
-      share: true
-      comments: false
-      #sidebar:
-      #  nav: "docs"

@@ -1,7 +1,7 @@
 ---
 title: "Privacy"
 permalink: /privacy/
-excerpt: "."
+excerpt: "Even in open source, some legal and personnel issues are handled in private."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Privacy

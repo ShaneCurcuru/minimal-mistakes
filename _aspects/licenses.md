@@ -1,7 +1,7 @@
 ---
 title: "Licenses"
 permalink: /licenses/
-excerpt: "."
+excerpt: "The pragmatic Apache License is the universal donor."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Licenses

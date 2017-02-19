@@ -1,7 +1,7 @@
 ---
 title: "Diversity"
 permalink: /diversity/
-excerpt: "."
+excerpt: "Diverse communities survive the loss of a single employer."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Diversity

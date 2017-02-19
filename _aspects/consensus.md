@@ -1,7 +1,7 @@
 ---
 title: "Consensus"
 permalink: /consensus/
-excerpt: "."
+excerpt: "Getting good enough consensus is often better than voting."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Consensus

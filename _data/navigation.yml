@@ -6,9 +6,17 @@ main:
     url: /colophon
   - title: "Apache Community Development"
     url: https://community.apache.org/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  
+sbmenu:
+- title: The Five Ways
+  children:
+    - title: "Community"
+      url: /community/
+    - title: "Open"
+      url: /open/
+    - title: "Merit"
+      url: /merit/
+    - title: "Charity"
+      url: /charity/
+    - title: "Pragmatic"
+      url: /pragmatic/

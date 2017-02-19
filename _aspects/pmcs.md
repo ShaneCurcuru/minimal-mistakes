@@ -1,7 +1,7 @@
 ---
 title: "PMCs"
 permalink: /pmcs/
-excerpt: "."
+excerpt: "PMCs are responsible for managing the whole project - not just the code."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - PMCs

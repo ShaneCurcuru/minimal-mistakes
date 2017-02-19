@@ -3,25 +3,24 @@ layout: archive
 permalink: /tags/
 title: "Apache Way Elements by Tags"
 author_profile: true
+read_time: false
 ---
 
 <p>Tags are used to classify the many different Aspects of Apache.</p>
-
-{% include base_path %}
 <!-- Can't concat arrays yet, so do it twice -->
-{% include group-by-array collection=site.ways field="tags" %}
+{% include group-by-array collection=site.aspects field="tags" %}
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h3 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h3>
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}
 {% endfor %}
 
-{% include group-by-array collection=site.aspects field="tags" %}
+{% include group-by-array collection=site.ways field="tags" %}
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h3 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h3>
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}

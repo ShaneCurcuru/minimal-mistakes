@@ -1,7 +1,7 @@
 ---
 title: "Votes"
 permalink: /votes/
-excerpt: "."
+excerpt: "Healthy communities that can find consensus will vote only when required."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Votes

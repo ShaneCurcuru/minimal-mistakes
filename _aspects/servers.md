@@ -1,7 +1,7 @@
 ---
 title: "Servers"
 permalink: /servers/
-excerpt: "."
+excerpt: "Using our own infrastructure ensures we are masters of our own fate."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Servers

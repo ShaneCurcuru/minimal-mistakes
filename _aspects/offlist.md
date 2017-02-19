@@ -1,7 +1,7 @@
 ---
 title: "Offlist"
 permalink: /offlist/
-excerpt: "."
+excerpt: "Bring everything offlist back to the list."
 modified: 2017-01-14T10:05:00-05:00
 categories:
   - Offlist
