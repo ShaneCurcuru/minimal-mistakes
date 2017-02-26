@@ -3,6 +3,8 @@ title: "Merit"
 permalink: /merit/
 excerpt: "Those that have proven they can do, get to do more."
 modified: 2017-01-14T09:02:00-05:00
+header:
+  overlay_color: "#662E8D"
 categories:
   - Merit
 tags:

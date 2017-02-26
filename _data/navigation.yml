@@ -8,7 +8,7 @@ main:
     url: https://community.apache.org/
   
 sbmenu:
-- title: The Five Ways
+- title: The Six Ways
   children:
     - title: "Community"
       url: /community/
@@ -16,6 +16,8 @@ sbmenu:
       url: /open/
     - title: "Merit"
       url: /merit/
+    - title: "Consensus"
+      url: /consensus/
     - title: "Charity"
       url: /charity/
     - title: "Pragmatic"

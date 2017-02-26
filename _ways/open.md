@@ -3,6 +3,8 @@ title: "Open"
 permalink: /open/
 excerpt: "Technical decisions are discussed, decided, and archived publicly."
 modified: 2017-01-14T09:03:00-05:00
+header:
+  overlay_color: "#E97826"
 categories:
   - Open
 tags:

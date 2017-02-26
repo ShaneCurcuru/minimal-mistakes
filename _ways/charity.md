@@ -3,6 +3,8 @@ title: "Charity"
 permalink: /charity/
 excerpt: "Apache's mission is providing software for the public good."
 modified: 2017-01-14T09:05:00-05:00
+header:
+  overlay_color: "#BE202E"
 categories:
   - Charity
 tags:

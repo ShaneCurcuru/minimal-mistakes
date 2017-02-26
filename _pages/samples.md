@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "About"
+title: "Sample Page"
 permalink: /sample
 author_profile: true
 header:
   overlay_image: /assets/images/headerc-unsplash-cc0.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: rgba(0, 0, 128, 0.5)
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   cta_label: "Useless button"
   cta_url: ""
@@ -13,7 +13,23 @@ header:
 
 ## About Samples
 
-This is a page for testing minimal-mistakes features.  See also /test directory in original theme.
+This is a page for testing minimal-mistakes features.  See also /test directory in original theme.  Includes:
+
+```markdown
+header:
+  overlay_image: /assets/images/headerc-unsplash-cc0.jpg
+  overlay_filter: rgba(0, 0, 128, 0.5)
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  cta_label: "Useless button"
+  cta_url: ""
+```
+
+Header colors:
+<div style="width:200 px; height:200 px; background-color:#662E8D;">#662E8D rgb(102, 46, 141) purple</div>
+<div style="width:200 px; height:200 px; background-color:#E97826;">#E97826  rgb(233, 120, 38) orange </div>
+<div style="width:200 px; height:200 px; background-color:#BE202E;">#BE202E  rgb(190, 32, 46) red1  rgba(190, 32, 46, 1.0)</div>
+<div style="width:200 px; height:200 px; background-color:#C92037;">#C92037  red2</div>
+<div style="width:200 px; height:200 px; background-color:#CD2032;">#CD2032  red3 </div>
 
 Multi line blockquote with a cite reference:
 

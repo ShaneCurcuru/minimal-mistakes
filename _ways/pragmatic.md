@@ -3,6 +3,8 @@ title: "Pragmatic"
 permalink: /pragmatic/
 excerpt: "Apache projects use the broadly permissive Apache license."
 modified: 2017-01-14T09:04:00-05:00
+header:
+  overlay_color: "#E97826"
 categories:
   - Pragmatic
 tags:
