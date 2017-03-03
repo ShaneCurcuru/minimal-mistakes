@@ -1,6 +1,35 @@
 # [Shane's Punderthings - Minimal Mistakes Jekyll Theme](https://punderthings.org/)
 
+<<<<<<< HEAD
 Shane's customizations of the excellent Minimal Mistakes Jekyll theme.  Apache 2.0 License for changes; original under MIT License.
+=======
+[![GitHub release](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://github.com/mmistakes/minimal-mistakes/releases) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
+
+Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+
+See what's new in the [CHANGELOG](CHANGELOG.md).
+
+:sparkles: Minimal Mistakes is now available as a [Ruby gem](https://rubygems.org/gems/minimal-mistakes-jekyll). Consult the [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) and [this blog post](https://mmistakes.github.io/minimal-mistakes/jekyll/gemified-theme-beta/) to learn how to upgrade.
+
+[![Minimal Mistakes live preview][2]][1]
+
+[1]: https://mmistakes.github.io/minimal-mistakes/
+[2]: screenshot.png (live preview)
+
+![layout examples](screenshot-layouts.png)
+
+## Notable Features
+
+- "Gemified" for easier install/upgrading
+- Compatible with Jekyll 3.x and GitHub Pages
+- Support for Jekyll's built-in Sass/SCSS preprocessor
+- Several responsive layout options (single, archive index, splash, and paginated home page)
+- SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
+- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
+- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), and custom).
+- [Google Analytics](https://www.google.com/analytics/) support.
+- UI localized text in English (default), Brazilian Portuguese, Chinese, French, German, Italian, Korean, Nepali (Nepalese), Russian, Spanish, and Turkish
+>>>>>>> mmistakes/master
 
 ## Demo Pages
 
@@ -26,7 +55,33 @@ Additional sample posts are available under [posts archive][year-archive] on the
 [year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
 
 
+<<<<<<< HEAD
 ## Credits - from original Minimal Mistakes
+=======
+## Contributing
+
+Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+
+Minimal Mistakes has been designed as a base for you to customize and fit your site's unique needs. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, I probably won't consider it. When in doubt ask. 
+
+This goes for author sidebar links and "share button" additions -- I have no intention of merging in every possibly option, the essentials are there to get you started :smile:.
+
+### Pull Requests
+
+To help me out try to avoid creating pull requests on `master` and instead branch off of `develop`. It's much easier for me to test, merge, and roll them into new releases this way.
+
+Theme documentation and demo pages can be found in the [`/docs`](docs) if submitting improvements, typo corrections, etc.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
+
+---
+
+## Credits
+>>>>>>> mmistakes/master
 
 ### Creator
 

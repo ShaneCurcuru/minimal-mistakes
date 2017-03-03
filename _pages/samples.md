@@ -139,6 +139,8 @@ Getting our science styling on with H<sub>2</sub>O, and E = MC<sup>2</sup> with 
 
 ## images
 
+{% include figure image_path="/assets/images/gravatar.png" alt="Placeholder face" caption="A single image included." %}
+
 ```html
 <figure class="third"> <!-- Also: class="half" for two img -->
 	<img src="/images/image-filename-1.jpg">
@@ -154,3 +156,29 @@ Getting our science styling on with H<sub>2</sub>O, and E = MC<sup>2</sup> with 
 This site is in a <a href="https://github.com/{{ site.repository }}">GitHub repository</a>, and the original theme's testing files are [viewable](https://mmistakes.github.io/minimal-mistakes/layout/uncategorized/layout-header-overlay-image/) and [codeable](https://github.com/mmistakes/minimal-mistakes/tree/master/test/_posts).
 
 To discuss the Apache Way or learn more about how best to work with any Apache project, please see the [Apache Community Development project](//community.apache.org/), and participate in the [dev@community mailing list](https://lists.apache.org/list.html?dev@community.apache.org).
+
+### Actual output with gradient
+linear-gradient( to left top, blue, red);
+linear-gradient(to top right, red, #f06d06s);
+linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://whyilovepeets.com/assets/images/drew-coffman-110617.jpg');"
+
+### ----------------------------
+{% if page.header.overlay_filter contains "to" %}
+  {% assign full_gradient = true %}
+{% endif %}
+
+{% if page.header.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+{% elsif page.header.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
+{% endif %}
+
+<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} 
+    {% if overlay_img_path %}background-image: 
+      {% if full_gradient %}linear-gradient({{ overlay_filter }}), {% elsif overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}
+      url('{{ overlay_img_path }}');
+    {% endif %}"
+>
+
