@@ -182,3 +182,72 @@ style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)
     {% endif %}"
 >
 
+## Schema Metadata Markup
+
+This website is maintained by the
+<span itemscope itemprop='author' itemtype='http://schema.org/Organization'>
+   <span itemprop='name'><a itemprop='url' href='http://community.apache.org/'>Apache Community Development PMC</a></span>
+</span>
+
+
+
+As part of the:
+<span itemscope itemprop='sourceOrganization' itemtype='http://schema.org/Corporation'>
+   <span itemprop='name'><a itemprop='url' href='https://www.apache.org/'>The Apache Software Foundation</a></span>
+</span>
+       
+
+## Organization fields
+
+http://schema.org/Organization
+
+department -> Organization
+name
+description
+url
+
+parentOrganization <> subOrganization
+
+http://schema.org/CreativeWork
+about
+
+author (org or person)
+contributor (additional author(s))
+sourceOrganization
+
+<h3>About This Website</h3>
+<p>
+  This website is maintained by the 
+  <span itemscope itemprop='author' itemtype='http://schema.org/Organization'>
+    <span itemprop='name'><a itemprop='url' href='http://community.apache.org/'>Apache Community Development PMC</a></span> who works on the 
+    <span itemprop='email'>dev@community.apache.org</span>
+    <span itemscope itemtype='https://schema.org/ContactPage'><a itemprop='url' href='https://community.apache.org/lists.html'>archived mailing list</a></span>.
+  </span>
+</p>
+
+<p>
+  Anyone use the <a href='https://community.apache.org/newbiefaq.html#websitecms'>Apache CMS tool in your web browser</a> to suggest changes to this site.  The content is written in markdown, and is publisehd as static HTML by the CMS tool.
+  <br/>
+  The underlying sources are stored in a Subversion repository at: <code itemscope itemtype='https://schema.org/SoftwareSourceCode'><a itemprop='codeRepository' href='https://svn.apache.org/repos/asf/comdev/site/trunk/content/'>https://svn.apache.org/repos/asf/comdev/site/trunk/content/</a></code>
+</p>
+
+<div id="footer">
+   Managed by the <a href="http://community.apache.org">Apache Community Development Project</a>.<br/>
+   Copyright&copy; 2017, the Apache Software Foundation. Licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a><br/>
+   Apache&reg; and the multicolor feather logo are <a href="https://www.apache.org/foundation/marks/list/">trademarks</a> of The Apache Software Foundation.
+</div>
+
+
+## Adding microdata without displaying it
+<link itemprop="url" href="#c1">
+<meta itemprop="priceCurrency" content="USD" />
+
+As part of the:
+<span itemscope itemprop='sourceOrganization' itemtype='http://schema.org/Corporation'>
+   <span itemprop='name'><a itemprop='url' href='https://www.apache.org/'>The Apache Software Foundation</a></span>
+</span>
+
+http://schema.org/AboutPage
+https://schema.org/SoftwareApplication  installUrl
+
+https://schema.org/SoftwareSourceCode codeRepository
