@@ -5,7 +5,7 @@ permalink: /sample
 author_profile: true
 header:
   overlay_image: /assets/images/headerc-unsplash-cc0.jpg
-  overlay_filter: rgba(0, 0, 128, 0.5)
+  overlay_filter: to right, rgba(255, 255, 255, 1.0) 20%, rgba(255, 255, 255, 0) 95%
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   cta_label: "Useless button"
   cta_url: ""
